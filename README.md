@@ -1,68 +1,63 @@
-# Device-Scanner
+<h1 align="center">
+        <img src="https://static.thenounproject.com/png/3622373-200.png" width="150px"><br>
+    Device Scanner
+</h1>
 
-# Prerequisite
-Before using Device-Scanner, make sure to install Npcap, a prerequisite for utilizing the scapy Python library. You can download and install Npcap from the official [Npcap website](https://npcap.com/).
+# Prerequisites
+- [Python3](https://python.org/)
+- [Npcap](https://npcap.com/)
 
 # Getting Started
+- clone the repository
+  - `git clone https://github.com/SecLabX/Device-Scanner.git`
+- cd into the project
+  - `cd Device-Scanner/`
 
-Clone the repository to your local machine:
-```
-git clone https://github.com/SecLabX/Device-Scanner.git
-```
+# Dependencies
+<details>
+<summary>Windows</summary>
 
-Navigate to the project directory:
-```
-cd Device-Scanner
-```
+<code>pip install requirements.txt</code>
 
-# Install Dependencies
-## Windows
--  If you're using Windows 
-    ```
-    pip install -r requirements.txt
-    ```
+</details>
 
-## Linux
-- If you're using Linux
-    ```
-    pip3 install -r requirements.txt
-    ```
+<details>
+<summary>Linux</summary>
 
-# GUI
-## Windows
--  If you're using Windows 
-    ```
-    python .\src\gui\device-gui.py
-    ```
+<code>pip3 install requirements.txt</code>
 
-## Linux
-- If you're using Linux
-    ```
-    python3 src/gui/device-gui.py
-    ```
+</details>
 
-# Generate Standalone Exes
-## Windows
--  If you're using Windows 
-    ```
-    python .\etc\buildexe.pp
-    ```
+# Running GUI
+<details>
+<summary>Windows</summary>
 
-## Linux
-- If you're using Linux
-    ```
-    python3 etc/buildexe.py
-    ```
+<code>python .\src\gui\device-gui.py</code>
 
-# Updating
-## Windows
--  If you're using Windows 
-    ```
-    python .\src\main.py /!
-    ```
+</details>
 
-## Linux
-- If you're using Linux
-    ```
-    python3 src/main.py --update
-    ```
+<details>
+<summary>Linux</summary>
+
+<code>python3 src/gui/device-gui.py</code>
+
+</details>
+
+# Running Executable
+<details>
+<summary>Windows</summary>
+
+<code>python .\etc\buildexe.py</code>
+
+</details>
+
+<details>
+<summary>Linux</summary>
+
+<code>python3 etc/buildexe.py</code>
+
+</details>
+
+
+
+
