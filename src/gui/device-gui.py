@@ -39,8 +39,10 @@ def on_scan_button_click():
 def on_update_button_click():
     update()
 
-customtkinter.set_appearance_mode("System")
-customtkinter.set_default_color_theme("blue")
+def toggle_appearance_mode():
+    current_mode = customtkinter.get_appearance_mode()
+    new_mode = "Light" if current_mode == "Dark" else "Dark"
+    customtkinter.set_appearance_mode(new_mode)
 
 app = customtkinter.CTk()
 app.geometry("500x500")
@@ -60,5 +62,9 @@ update_frame = tabview.add("Update")
 
 update_button = customtkinter.CTkButton(update_frame, text="Update", command=on_update_button_click)
 update_button.pack(padx=20, pady=20)
+
+# Add a button to toggle appearance mode
+toggle_mode_button = customtkinter.CTkButton(app, text="Toggle Mode", command=toggle_appearance_mode)
+toggle_mode_button.pack(pady=10)
 
 app.mainloop()
