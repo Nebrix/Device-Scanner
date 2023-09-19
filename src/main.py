@@ -36,9 +36,9 @@ def scan_network():
 
 
 def main():
-    if os.name == "nt" and sys.argv[0] == "/!":
+    if os.name == "nt" and sys.argv[1] == "/!":
         update()
-    elif os.name != "nt" and sys.argv[0] == "--update":
+    elif os.name != "nt" and sys.argv[1] == "--update":
         update()
     else:
         scan_network()
