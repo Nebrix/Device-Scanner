@@ -15,6 +15,19 @@ Navigate to the project directory:
 cd Device-Scanner
 ```
 
+# Install the dependency
+## Windows
+-  If you're using Windows 
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Linux
+- If you're using Linux
+    ```
+    pip3 install -r requirements.txt
+    ```
+
 # Updating
 ## Windows
 -  If you're using Windows 
