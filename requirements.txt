@@ -2,3 +2,4 @@ scapy
 mac_vendor_lookup
 netifaces
 customtkinter
+pyinstaller

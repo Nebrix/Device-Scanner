@@ -1,0 +1,1 @@
+python -m PyInstaller --onefile .\src\gui\device-gui.py

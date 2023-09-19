@@ -1,0 +1,1 @@
+python -m PyInstaller --onefile .\src\cli\device-cli.py
