@@ -41,6 +41,19 @@ cd Device-Scanner
     python3 src/gui/device-gui.py
     ```
 
+# Generate Standalone Exes
+## Windows
+-  If you're using Windows 
+    ```
+    python .\etc\buildexe.pp
+    ```
+
+## Linux
+- If you're using Linux
+    ```
+    python3 etc/buildexe.py
+    ```
+
 # Updating
 ## Windows
 -  If you're using Windows 
