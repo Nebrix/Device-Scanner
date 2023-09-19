@@ -28,6 +28,19 @@ cd Device-Scanner
     pip3 install -r requirements.txt
     ```
 
+# GUI
+## Windows
+-  If you're using Windows 
+    ```
+    python .\src\gui\device-gui.py
+    ```
+
+## Linux
+- If you're using Linux
+    ```
+    python3 src/gui/device-gui.py
+    ```
+
 # Updating
 ## Windows
 -  If you're using Windows 
