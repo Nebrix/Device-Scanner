@@ -16,13 +16,14 @@ cd Device-Scanner
 ```
 
 # Updating
-- Windows
-    If you're using Windows 
+## Windows
+-  If you're using Windows 
     ```
     python .\src\main.py /!
     ```
-- Linux
-    If you're using Linux
+
+## Linux
+- If you're using Linux
     ```
     python3 src/main.py --update
     ```
