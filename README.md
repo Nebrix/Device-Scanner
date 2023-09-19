@@ -15,7 +15,7 @@ Navigate to the project directory:
 cd Device-Scanner
 ```
 
-# Install the dependency
+# Install Dependencies
 ## Windows
 -  If you're using Windows 
     ```
