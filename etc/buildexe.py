@@ -37,14 +37,14 @@ elif user_input.lower() == LINUX.lower():
 else:
     print("Invalid OS selection. Exiting...")
 
-if userinput == WINDOWS or userinput == WINDOWS.lower():
+if user_input == WINDOWS or user_input == WINDOWS.lower():
     print("CLI or GUI")
     selectExe = input("Enter the Exe you want to build: ")
     if selectExe == CLI or selectExe == CLI.lower():
         os.system("powershell.exe -File .\\build\\build-cli\\windows\\windowscli.ps1")
     elif selectExe == GUI or selectExe == GUI.lower():
         os.system("powershell.exe -File .\\build\\build-gui\\windows\\windowsgui.ps1")
-elif userinput == LINUX or userinput == LINUX.lower():
+elif user_input == LINUX or user_input == LINUX.lower():
     print("CLI or GUI")
     selectExe = input("Enter the Exe you want to build: ")
     if selectExe == CLI or selectExe == CLI.lower():
