@@ -3,6 +3,9 @@
     Device Scanner
 </h1>
 
+# [Outdated] 
+- This project is no longer supported nor work
+
 # Prerequisites
 - [Python3](https://python.org/)
 - [Npcap](https://npcap.com/)
